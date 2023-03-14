@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    overflow:hidden;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 80vh;
+}
+.fig {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hr {
+    border: none;
+    background-color: red;
+    height: 2px;
+}
+.absolute {
+    left: auto;
+    top: auto;
+}
+
+.bal {
+    position: absolute;
+    top: 617px;
+    transition: top 0.5s;
+}
+
+.popados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.repeat-button {
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgb(67, 61, 238);
+    color: #fff;
+    transition: all .5s;
+}
+
+.repeat-button:hover {
+    background-color: rgb(128, 123, 255);
+}
+
+.ball-image {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+}
